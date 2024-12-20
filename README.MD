@@ -23,7 +23,7 @@ note: You can also import the pack into MultiMC if you already use it, but given
 
 Please note that for technical reasons the autoupdater is incompatable with curseforge or modrinth, therefor you will need to repeat this step anytime the pack is updated.
 
-1. Download the latest pack file for your launcher from the pinned message in discord (ie: ThundaSMP_v.1.0.0_curseforge.zip/ThundaSMP_v.1.0.0_modrinth.zip)
+1. Download the latest pack file for your launcher from the pinned message in discord (ie: ThundaSMP-v1.0.0-curseforge.zip/ThundaSMP-v1.0.0-modrinth.mrpack)
 2. import it into your prefered launcher
 
 ---
