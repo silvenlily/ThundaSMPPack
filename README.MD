@@ -39,6 +39,5 @@ This is a more technical option and assumes you know how to use the terminal
 
 1. download the [latest packwiz bootstrapper](https://github.com/packwiz/packwiz-installer-bootstrap/releases) jar file
 2. place the jar file in a new folder
-3. run `java -jar packwiz-installer-bootstrap.jar -g -s client https://raw.githubusercontent.com/silvenlily/ThundaSMPPack/refs/heads/main/pack.toml`
-
-
+3. open a terminal window in this folder and run `java -jar packwiz-installer-bootstrap.jar -s client https://raw.githubusercontent.com/silvenlily/ThundaSMPPack/refs/heads/main/pack/pack.toml`
+4. all mods are now placed in the newly created mods folder
