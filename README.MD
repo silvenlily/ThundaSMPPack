@@ -42,9 +42,13 @@ This is a more technical option and assumes you know how to use the terminal (an
 3. open a terminal window in this folder and run `java -jar packwiz-installer-bootstrap.jar -s client https://raw.githubusercontent.com/silvenlily/ThundaSMPPack/refs/heads/main/pack/pack.toml`
 4. all mods are now placed in the newly created mods folder
 
-# Building client pack files
+# Building pack files
 
-Assumes you have the (packwiz cli tool)[https://packwiz.infra.link/installation/] and have git (and java) installed
+On windows if you have the [packwiz cli tool](https://packwiz.infra.link/installation/) and java isntalled you should just be able to run the `build-packs.ps1` script. As a good citizen of the net I'm sure you will read the entire script and understand what it does before running it *stares*. You may need to change your script execution policy to allow running powershell scripts. Don't do this unless you understand the implications of doing so.
+
+# Manually Building client pack files
+
+Assumes you have the [packwiz cli tool](https://packwiz.infra.link/installation/) and have git (and java) installed
 
 The first time you do this you will need to clone the repo
 ```sh
@@ -61,8 +65,8 @@ To build curseforge and modrinth client packs run in the `packs` directory:
 packwiz curseforge export --side client --output ../ThundaSMP-v-curseforge.zip
 packwiz modrinth export --side client --output ../ThundaSMP-v-modrinth.mrpack
 ```
-# Building server mod folder
-You will need to download the (packwiz installer bootstrapper)[https://github.com/packwiz/packwiz-installer-bootstrap/releases] (and have a modern version of java installed).
+# Manually Building server mod folder
+You will need to download the [packwiz installer bootstrapper](https://github.com/packwiz/packwiz-installer-bootstrap/releases) (and have a modern version of java installed).
 
 To build based on the git repo create a new folder, place the installer boostrapper in it and run
 ```
