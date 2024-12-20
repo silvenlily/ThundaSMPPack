@@ -63,7 +63,7 @@ git pull
 To build curseforge and modrinth client packs run in the `packs` directory:
 ```sh
 packwiz curseforge export --side client --output ../ThundaSMP-v-curseforge.zip
-packwiz modrinth export --side client --output ../ThundaSMP-v-modrinth.mrpack
+packwiz modrinth export --output ../ThundaSMP-v-modrinth.mrpack
 ```
 # Manually Building server mod folder
 You will need to download the [packwiz installer bootstrapper](https://github.com/packwiz/packwiz-installer-bootstrap/releases) (and have a modern version of java installed).
