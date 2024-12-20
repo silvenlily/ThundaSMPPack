@@ -1,3 +1,9 @@
+# about
+
+This is the modpack for the thunda smp private server.  
+It it build using [packwiz](https://packwiz.infra.link/).
+
+# Installation
 
 There are three primary ways of installing this pack
 
@@ -8,7 +14,7 @@ There are three primary ways of installing this pack
 3. download and run the latest version of the packwiz install bootstrapper to download all the mod's jar files and install them in the approprate mod folder
 
 ---
-# Option 1 AT Launcher
+## Option 1 AT Launcher
 
 1. [download and install](https://atlauncher.com/downloads) the AT Launcher version approprate for your operating system (ie: windows, mac, linux)
 2. Add your minecraft account on the "Accounts" tab
@@ -19,7 +25,7 @@ There are three primary ways of installing this pack
 note: You can also import the pack into MultiMC if you already use it, but given its less friendly nature I'm not going to provide directions.
 
 ---
-# Option 2 Download the pack file
+## Option 2 Download the pack file
 
 Please note that for technical reasons the autoupdater is incompatable with curseforge or modrinth, therefor you will need to repeat this step anytime the pack is updated.
 
@@ -27,7 +33,7 @@ Please note that for technical reasons the autoupdater is incompatable with curs
 2. import it into your prefered launcher
 
 ---
-# Option 3 build the pack from this repo
+## Option 3 build the pack from this repo
 
 This is a more technical option and assumes you know how to use the terminal
 
