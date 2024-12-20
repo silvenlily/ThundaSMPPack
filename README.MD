@@ -44,7 +44,7 @@ This is a more technical option and assumes you know how to use the terminal (an
 
 # Building pack files
 
-On windows if you have the [packwiz cli tool](https://packwiz.infra.link/installation/) and java isntalled you should just be able to run the `build-packs.ps1` script. As a good citizen of the net I'm sure you will read the entire script and understand what it does before running it *stares*. You may need to change your script execution policy to allow running powershell scripts. Don't do this unless you understand the implications of doing so.
+On windows if you have the [packwiz cli tool](https://packwiz.infra.link/installation/) and java isntalled you should just be able to run the `build-packs.ps1` script. As a good citizen of the net I'm sure you will read the entire script and understand what it does before running it. You may need to change your script execution policy to allow running powershell scripts. Don't do this unless you understand the implications of doing so.
 
 # Manually Building client pack files
 
