@@ -1,0 +1,13 @@
+name = "Cobbreeding"
+filename = "Cobbreeding-fabric-1.7.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ItmVb4zY/versions/8urJiCDL/Cobbreeding-fabric-1.7.4.jar"
+hash-format = "sha512"
+hash = "904d64e7ba7a59ca9a0f975192dfa21d712e4cfaff4212e0051faa47ac94c905c8971e1e10d96a2eaa2d77c9d7bfb1f6b9d31b77c152f409e1d153056d28f4ab"
+
+[update]
+[update.modrinth]
+mod-id = "ItmVb4zY"
+version = "8urJiCDL"

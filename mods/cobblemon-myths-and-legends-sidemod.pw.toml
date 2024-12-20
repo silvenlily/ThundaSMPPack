@@ -1,0 +1,13 @@
+name = "Myths and Legends [Cobblemon Sidemod]"
+filename = "Myths_and_Legends-1.6.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CaOWby9K/versions/NfmD6cUw/Myths_and_Legends-1.6.1-fabric.jar"
+hash-format = "sha512"
+hash = "a4133ff376641fa177d5da2e0ff9ab0191a32f506681da84eab0eb8e6ca45e53bd7eab9fe1383c3856d33d1dbc78196efc612c6aeb285c36ce0c5a6beecc2dc8"
+
+[update]
+[update.modrinth]
+mod-id = "CaOWby9K"
+version = "NfmD6cUw"
