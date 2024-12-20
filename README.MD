@@ -19,7 +19,7 @@ There are three primary ways of installing this pack
 1. [download and install](https://atlauncher.com/downloads) the AT Launcher version approprate for your operating system (ie: windows, mac, linux)
 2. Add your minecraft account on the "Accounts" tab
 3. Open the "Instances" tab and click import in the top left corner, paste this in the "URL" box: `https://github.com/silvenlily/ThundaSMPPack/raw/refs/heads/main/PreconfiguredPack.zip`
-4. The preconfigured pack is set to use a max of 8gb of ram. If your computer has less then 10gb of ram you should change this to no more then (total ram - 2gb) in Instances > (pack) Settings > Java/Minecraft > Maximum Memory/Ram
+4. By default the preconfigured pack is set to use a max of 8gb of ram. If your computer has less then 10gb of ram you should change this to no more then (<your system ram> - 2gb) in Instances > (pack) Settings > Java/Minecraft > Maximum Memory/Ram
 5. Press Play and select what optional mods you want
 
 note: You can also import the pack into MultiMC if you already use it, but given its less friendly nature I'm not going to provide directions.
@@ -35,9 +35,47 @@ Please note that for technical reasons the autoupdater is incompatable with curs
 ---
 ## Option 3 build the pack from this repo
 
-This is a more technical option and assumes you know how to use the terminal
+This is a more technical option and assumes you know how to use the terminal (and have a modern version of java installed)
 
 1. download the [latest packwiz bootstrapper](https://github.com/packwiz/packwiz-installer-bootstrap/releases) jar file
 2. place the jar file in a new folder
 3. open a terminal window in this folder and run `java -jar packwiz-installer-bootstrap.jar -s client https://raw.githubusercontent.com/silvenlily/ThundaSMPPack/refs/heads/main/pack/pack.toml`
 4. all mods are now placed in the newly created mods folder
+
+# Building client pack files
+
+Assumes you have the (packwiz cli tool)[https://packwiz.infra.link/installation/] and have git (and java) installed
+
+The first time you do this you will need to clone the repo
+```sh
+git clone https://github.com/silvenlily/ThundaSMPPack.git
+```
+
+Before each time you build the pack you should pull any updates to the pack from the git repo
+```
+git pull
+```
+
+To build curseforge and modrinth client packs run in the `packs` directory:
+```sh
+packwiz curseforge export --side client --output ../ThundaSMP-v-curseforge.zip
+packwiz modrinth export --side client --output ../ThundaSMP-v-modrinth.mrpack
+```
+# Building server mod folder
+You will need to download the (packwiz installer bootstrapper)[https://github.com/packwiz/packwiz-installer-bootstrap/releases] (and have a modern version of java installed).
+
+To build based on the git repo create a new folder, place the installer boostrapper in it and run
+```
+java -jar packwiz-installer-bootstrap.jar -g -s server https://raw.githubusercontent.com/silvenlily/ThundaSMPPack/refs/heads/main/pack/pack.toml
+```
+
+To build based on your local repo first have packwiz serve your local copy of the pack (inside your packs directory):
+```sh
+packwiz refresh
+packwiz serve
+```
+
+Then run the installer boostrapper in server mode in a new folder:
+```sh
+java -jar packwiz-installer-bootstrap.jar -g -s server http://localhost:8080/pack.toml
+```
