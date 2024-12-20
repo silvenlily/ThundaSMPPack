@@ -1,4 +1,4 @@
-# about
+# About
 
 This is the modpack for the thunda smp private server.  
 It it build using [packwiz](https://packwiz.infra.link/).
