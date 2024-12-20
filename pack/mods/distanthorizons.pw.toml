@@ -11,3 +11,9 @@ hash = "a5059a249283f686bc49bc4c2606fce7b665102983f396996f47c11245fee21059554db5
 [update.modrinth]
 mod-id = "uCdwusMi"
 version = "20nF6i21"
+
+
+[option]
+optional = true
+default = false
+description = "Distant Horizons does fancy things to make your render distance seem much further then it is, however you may have issues running it on slower computers"

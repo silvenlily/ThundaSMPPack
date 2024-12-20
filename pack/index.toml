@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "5f6c35eca0fde396c1ece31de3c4f360bfbac90a3654f4cd1bf88d275c136908"
+hash = "62b1296612c69154bf24974094755e90ae45b017f7bb2ab7161566653b494ca2"
 metafile = true
 
 [[files]]
@@ -208,6 +208,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "5e83a4294f11fd592e58b0fe8a4041ebdf30875c9dd16060cb74189a7aad240d"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "9996b3b2c5f6a60fde358c811c5c6dbc4a97a7510d5608906d8ef43f6a0333c5"
 metafile = true
 
 [[files]]
@@ -333,6 +338,16 @@ metafile = true
 [[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "ffb2cfcb24ac65c753f6b877b7b6c67cddf56055cc7585faedd5e7b96b64c392"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "92c5096783ff21462cad5437e3f8bbc158f4156ac35956fd42795a0d7a0d1934"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "4168fff9e4c451e81c49259192c645487ff654d14991b27fc7a04f637655b7f4"
 metafile = true
 
 [[files]]
