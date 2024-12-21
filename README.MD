@@ -14,18 +14,18 @@ There are three primary ways of installing this pack
 3. download and run the latest version of the packwiz install bootstrapper to download all the mod's jar files and install them in the approprate mod folder
 
 ---
-## Option 1 AT Launcher
+## Option 1 - AT Launcher
 
 1. [download and install](https://atlauncher.com/downloads) the AT Launcher version approprate for your operating system (ie: windows, mac, linux)
 2. Add your minecraft account on the "Accounts" tab
 3. Open the "Instances" tab and click import in the top left corner, paste this in the "URL" box: `https://github.com/silvenlily/ThundaSMPPack/raw/refs/heads/main/PreconfiguredPack.zip`
-4. By default the preconfigured pack is set to use a max of 8gb of ram. If your computer has less then 10gb of ram you should change this to no more then (<your system ram> - 2gb) in Instances > (pack) Settings > Java/Minecraft > Maximum Memory/Ram
+4. By default the preconfigured pack is set to use a max of 8gb of ram. If your computer has less then 10gb of ram you should change this to no more then (your system ram - 2gb) in Instances > (pack) Settings > Java/Minecraft > Maximum Memory/Ram
 5. Press Play and select what optional mods you want
 
 note: You can also import the pack into MultiMC if you already use it, but given its less friendly nature I'm not going to provide directions.
 
 ---
-## Option 2 Download the pack file
+## Option 2 - Download the pack file
 
 Please note that for technical reasons the autoupdater is incompatable with curseforge or modrinth, therefor you will need to repeat this step anytime the pack is updated.
 
@@ -33,7 +33,7 @@ Please note that for technical reasons the autoupdater is incompatable with curs
 2. import it into your prefered launcher
 
 ---
-## Option 3 build the pack from this repo
+## Option 3 - build the pack from this repo
 
 This is a more technical option and assumes you know how to use the terminal (and have a modern version of java installed)
 
