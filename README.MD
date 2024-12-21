@@ -19,7 +19,7 @@ There are three primary ways of installing this pack
 1. [download and install](https://atlauncher.com/downloads) the AT Launcher version approprate for your operating system (ie: windows, mac, linux)
 2. Add your minecraft account on the "Accounts" tab
 3. Open the "Instances" tab and click import in the top left corner, paste this in the "URL" box: `https://github.com/silvenlily/ThundaSMPPack/raw/refs/heads/main/PreconfiguredPack.zip`
-4. By default the preconfigured pack is set to use a max of 8gb of ram. If your computer has less then 10gb of ram you should change this to no more then (<your system ram> - 2gb) in Instances > (pack) Settings > Java/Minecraft > Maximum Memory/Ram
+4. By default the preconfigured pack is set to use a max of 8gb of ram. If your computer has less then 10gb of ram you should change this to no more then (your system ram - 2gb) in Instances > (pack) Settings > Java/Minecraft > Maximum Memory/Ram
 5. Press Play and select what optional mods you want
 
 note: You can also import the pack into MultiMC if you already use it, but given its less friendly nature I'm not going to provide directions.
