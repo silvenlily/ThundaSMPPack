@@ -12,7 +12,7 @@ Set-Location "./build/build-$($BUILD_NAME)/"
 # download latest packwiz installer bootstrapper
 Invoke-WebRequest "https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar" -OutFile ./packwiz-installer-bootstrap.jar
 
-# get server all mod jars
+# get all server mod jars
 java -jar packwiz-installer-bootstrap.jar -g -s server "http://localhost:8080/pack.toml"
 
 # stop packwiz server
