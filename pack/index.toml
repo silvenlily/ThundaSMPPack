@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "9996b3b2c5f6a60fde358c811c5c6dbc4a97a7510d5608906d8ef43f6a0333c5"
+hash = "d010f90541c38532b593b02a9db35d0136ced8499508a7ad68cf8a3c74750d32"
 metafile = true
 
 [[files]]
