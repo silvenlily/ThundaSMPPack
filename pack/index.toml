@@ -216,8 +216,8 @@ hash = "9996b3b2c5f6a60fde358c811c5c6dbc4a97a7510d5608906d8ef43f6a0333c5"
 metafile = true
 
 [[files]]
-file = "mods/lets-do-bakery-farmcharm-compat.pw.toml"
-hash = "33cd8e4bb8a10d33ce3d77186a08fbe83884976ad83afb4f1faeea8e817a97d3"
+file = "mods/lets-do-bakery.pw.toml"
+hash = "6e4ef29d4f259f1b797dff8b02cf49eff8500ab4824412a3b49dd158f80f2947"
 metafile = true
 
 [[files]]
@@ -226,8 +226,8 @@ hash = "43b760510cf39c9a0635a56154e5ac1c4bec5a7c229e323ada491abaf82d8ec1"
 metafile = true
 
 [[files]]
-file = "mods/lets-do-brewery-farmcharm-compat.pw.toml"
-hash = "df3007648a7faaf6ee62b6d4d3427ba8f97fe1abee926578964006812e344af6"
+file = "mods/lets-do-brewery.pw.toml"
+hash = "f3f8fd71302e5303bd119379923fe88716cb182a781871bb9db1c25fb58ef6f8"
 metafile = true
 
 [[files]]
